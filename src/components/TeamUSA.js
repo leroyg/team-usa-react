@@ -51,7 +51,7 @@ const athletes = [
     name:"John Stefanowicz, SGT USMC",
     styleWrestling: "Greco-Roman",
     weight: '82kg',
-    img: "https://i.imgur.com/DW0JzKT.jpg"
+    img: "https://i.imgur.com/DW0JzKT.jpg?1"
   },
   {
       name: "Whitney Condor",
@@ -60,10 +60,23 @@ const athletes = [
       img:"https://www.teamusa.org/-/media/USA_Wrestling/Athlete-Bios/2015-Athlete-Mugs/WhitneyConder150x250.jpg?mh=250&mw=150&hash=3CAFEF32A203121D8B1C84C3D20EE63F6EC0D4E7"
   },
   {
+      name: "Joe Rau",
+      styleWrestling:"Greco-Roman",
+      weight: "87kg",
+      img:"",
+  },
+  {
       name: "Zain Retherford",
       styleWrestling: "Freestyle",
       weight: '65kg',
       img: "https://www.teamusa.org/-/media/USA_Wrestling/Athlete-Bios/2017-Athlete-Mugs/ZainRetherford150x250.jpg?mh=250&mw=150&hash=C648DBDF59C6ECB357E3FB424679701DD8AA748C"
+  },
+  {
+      name: "Ellis Coleman",
+      styleWrestling:"Greco-Roman",
+      weight: "67kg",
+      img: "",
+
   },
   {
       name: "Pat Downey III",
