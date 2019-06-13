@@ -94,7 +94,8 @@ class TeamUSA extends React.Component {
       name: "",
       styleWrestling: "",
       weight: "",
-      img: ""
+      img: "",
+      renderBottomCenterControls: null
     };
   }
 
@@ -124,7 +125,9 @@ class TeamUSA extends React.Component {
         <img id="teamUSALogo" alt="Team USA Logo" src="https://www.teamusa.org/-/media/IT/2017_Social-Avatars_5_ORG.png?bc=ffffff&h=90&la=en&mh=90&mw=90&w=90&hash=450D579DEF433307DFE3973096679623F450521F"></img>
         <h1 id="mainTitle">2019 Wrestling</h1>
         <div className="athlete-list">
-        <Carousel>
+        <Carousel
+        renderBottomCenterControls={this.state.renderBottomCenterControls}
+        >
         {this.state.teamUSA.map((teamUSA, index) => {
             return <Athlete athlete={teamUSA} key={index} />;
           })}
